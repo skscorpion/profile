@@ -1,0 +1,10 @@
+F:\projects\myprofile\bin\Debug\netcoreapp2.0\myprofile.deps.json
+F:\projects\myprofile\bin\Debug\netcoreapp2.0\myprofile.runtimeconfig.json
+F:\projects\myprofile\bin\Debug\netcoreapp2.0\myprofile.runtimeconfig.dev.json
+F:\projects\myprofile\bin\Debug\netcoreapp2.0\myprofile.dll
+F:\projects\myprofile\bin\Debug\netcoreapp2.0\myprofile.pdb
+F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.csproj.CoreCompileInputs.cache
+F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.AssemblyInfoInputs.cache
+F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.AssemblyInfo.cs
+F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.dll
+F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.pdb

@@ -1,0 +1,5 @@
+F:\projects\myprofile
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=myprofile
+--content-root=F:\projects\myprofile
+--file=

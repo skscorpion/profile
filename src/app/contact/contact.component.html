@@ -1,0 +1,83 @@
+
+  <!-- Contact Section -->
+  <div class="contact-container">
+  <div class="contact-content" id="contact">
+    <div class="inner-content">
+    <h2 class="">Contact Me</h2>
+    <hr class="">
+
+    <div class="contact-section">
+      <p><mat-icon>place</mat-icon><span> Chennai, India</span></p>
+      <p><mat-icon>contact_phone</mat-icon><span> Phone: +91 98412 17272</span></p>
+      <p><mat-icon>contact_mail</mat-icon><span> Email: senthilkmaar@gmail.com</span></p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+    
+    <form (ngSubmit) = "submit()" [formGroup]="contactform" fxLayout = "column"
+    fxLayoutAlign="center"
+    fxLayoutGap="20px"
+    fxLayoutGap.xs="0">
+      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required [(ngModel)]="contactObj.Name" name="Name" maxlength="100" #contactname="ngModel"></p>
+      <div class="alert alert-danger error" [hidden]="contactname.valid || contactname.untouched">
+        <div  *ngIf="contactname.errors && contactname.errors.required">
+            Name is required
+        </div>
+      </div> -->
+      <div class="form-field">
+        <mat-form-field floatPlaceholder="never">
+          <input class="" matInput placeholder="Enter your name" required formControlName="name" [(ngModel)]="contactObj.Name" name="name" maxlength="200">
+          <mat-error *ngIf="contactform.controls.name.invalid">You must enter your name</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="form-field">
+        <mat-form-field floatPlaceholder="never">
+          <input class="" matInput placeholder="Enter your email" required formControlName="email" [(ngModel)]="contactObj.Email" name="email" maxlength="200" >
+          <mat-error *ngIf="contactform.controls.email.invalid">{{getEmailErrorMessage()}}</mat-error>
+          <span matSuffix><mat-icon>email</mat-icon></span>
+        </mat-form-field>
+      </div>
+      <div class="form-field">
+        <mat-form-field floatPlaceholder="never">
+          <input class="" matInput placeholder="Enter subject" required formControlName="subject" [(ngModel)]="contactObj.Subject" name="subject" maxlength="200">
+          <mat-error *ngIf="contactform.controls.subject.invalid">You must enter subject</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="form-field">
+        <mat-form-field floatPlaceholder="never">
+          <textarea rows="5" class="" matInput placeholder="Enter your message" required formControlName="message" [(ngModel)]="contactObj.Message" name="message" maxlength="500"></textarea>
+          <mat-error *ngIf="contactform.controls.message.invalid">You must enter your message</mat-error>
+          <mat-hint align="end">{{contactform.controls.message.value?.length || 0}} / 500</mat-hint>
+        </mat-form-field>
+      </div>
+      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required [(ngModel)]="contactObj.Email" name="Email" maxlength="200" #contactemail="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"></p>
+      <div class="alert alert-danger error" [hidden]="contactemail.valid || contactemail.untouched">
+        <div  *ngIf="contactemail.errors && contactemail.errors.required">
+            Email is required
+        </div>
+        <div  *ngIf="contactemail.errors && contactemail.errors.pattern">
+            Email is invalid
+        </div>
+      </div> -->
+      <!-- <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required [(ngModel)]="contactObj.Subject" name="Subject" maxlength="200" #contactsubject="ngModel"></p>
+      <div class="alert alert-danger error" [hidden]="contactsubject.valid || contactsubject.untouched">
+        <div  *ngIf="contactsubject.errors && contactsubject.errors.required">
+            Subject is required
+        </div>
+      </div>
+      <p><textarea rows="4" class="w3-input w3-padding-16" type="text" placeholder="Message" required [(ngModel)]="contactObj.Message" name="Message" maxlength="2000" #contactmsg="ngModel"></textarea></p>
+      <div class="alert alert-danger error" [hidden]="contactmsg.valid || contactmsg.untouched">
+        <div  *ngIf="contactmsg.errors && contactmsg.errors.required">
+            Message is required
+        </div>
+      </div>
+      -->
+      <div >
+        <button mat-button class="" type="submit" [disabled]="!contactform.valid">
+            <mat-icon>send</mat-icon> SEND MESSAGE
+        </button>
+      </div>
+    </form>
+  <!-- End Contact Section -->
+</div>
+  </div>
+</div>
