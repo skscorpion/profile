@@ -8,6 +8,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatSidenavModule, MatIconModule, MatCheckboxModule, MatButtonModule, MatCardModule, MatMenuModule, 
   MatToolbarModule, MatFormFieldModule, MatInputModule, MatSnackBarModule } from '@angular/material';
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { NgxCarouselModule } from 'ngx-carousel';
+import 'hammerjs';
  //module import --end
 
  //component declare-- start
@@ -64,6 +66,7 @@ const appRoutes: Routes = [
     MatToolbarModule, 
     MatFormFieldModule, 
     MatInputModule,
+    NgxCarouselModule,
     RouterModule.forRoot(
       appRoutes,
       //{ enableTracing: true } // <-- debugging purposes only 

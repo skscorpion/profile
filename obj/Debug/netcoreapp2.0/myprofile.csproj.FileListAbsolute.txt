@@ -8,3 +8,13 @@ F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.AssemblyInfoInputs.cache
 F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.AssemblyInfo.cs
 F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.dll
 F:\projects\myprofile\obj\Debug\netcoreapp2.0\myprofile.pdb
+F:\project\profile\bin\Debug\netcoreapp2.0\myprofile.deps.json
+F:\project\profile\bin\Debug\netcoreapp2.0\myprofile.runtimeconfig.json
+F:\project\profile\bin\Debug\netcoreapp2.0\myprofile.runtimeconfig.dev.json
+F:\project\profile\bin\Debug\netcoreapp2.0\myprofile.dll
+F:\project\profile\bin\Debug\netcoreapp2.0\myprofile.pdb
+F:\project\profile\obj\Debug\netcoreapp2.0\myprofile.csproj.CoreCompileInputs.cache
+F:\project\profile\obj\Debug\netcoreapp2.0\myprofile.AssemblyInfoInputs.cache
+F:\project\profile\obj\Debug\netcoreapp2.0\myprofile.AssemblyInfo.cs
+F:\project\profile\obj\Debug\netcoreapp2.0\myprofile.dll
+F:\project\profile\obj\Debug\netcoreapp2.0\myprofile.pdb

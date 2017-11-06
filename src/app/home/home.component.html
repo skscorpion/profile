@@ -1,12 +1,40 @@
 
 <!-- Header/Home -->
-<div class="home-container" id="home">
+<div class="home-container" id="home" >
   <h1 class="home-header"><span class="">I'm</span> Senthil Kumar.</h1>
   <p>Software Developer (Microsoft .Net).</p>
   <div class="section">
-  <div class="home-img">
-  <!-- <img src="../../assets/images/IMG_4264.jpg" alt="boy"> -->
-  <img src="../../profile/assets/images/IMG_4264.jpg" alt="boy">
+  <!-- <div class="home-img">
+  <!-- <img src="../../assets/images/IMG_4264.jpg" alt="boy">  -->
+  <!-- <img src="../../profile/assets/images/IMG_4264.jpg" alt="boy"> -->
+  <!-- Indicators -->
+ 
+<!-- </div> --> 
+<ngx-carousel
+[inputs]="carouselBanner"
+[moveToSlide]="1"
+(onMove)="onmoveFn($event)">
+
+    <ngx-item NgxCarouselItem class="bannerStyle">
+      <h1 style="margin-left: 200px;"><img src="../../assets/images/IMG_4264.jpg" alt="boy"></h1>
+    </ngx-item>
+
+    <ngx-item NgxCarouselItem class="bannerStyle">
+      <h1 style="margin-left: 200px;"><img src="../../assets/images/IMG_4264.jpg" alt="boy"></h1>
+    </ngx-item>
+
+    <ngx-item NgxCarouselItem class="bannerStyle">
+     <h1 style="margin-left: 200px;" ><img src="../../assets/images/IMG_4264.jpg" alt="boy"></h1>
+    </ngx-item>
+
+    <button NgxCarouselPrev class='leftRs'>&lt;</button>
+    <button NgxCarouselNext class='rightRs'>&gt;</button>
+</ngx-carousel>
+
+  
 </div>
 </div>
-</div>
+
+
+
+

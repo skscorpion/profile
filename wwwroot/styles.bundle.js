@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/pink-bluegrey.css"), "");
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n/* @import \"~@angular/material/prebuilt-themes/indigo-pink.css\"; */\n/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */\n /* @import '~@angular/material/prebuilt-themes/purple-green.css'; */ */\n\n * {\n    font-family: \"Montserrat\", sans-serif;\n    margin: 0px;\n    padding: 0px;\n}\nhtml, body {\n    font-family: Verdana,sans-serif;\n    font-size: 15px;\n    line-height: 1.5;\n    margin: 0px;\n    padding: 0px;\n    height: 100%;\n}\np {\n    text-align: justify;\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\n/* @import \"~@angular/material/prebuilt-themes/indigo-pink.css\"; */\r\n/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */\r\n /* @import '~@angular/material/prebuilt-themes/purple-green.css'; */ */\r\n\r\n * {\r\n    font-family: \"Montserrat\", sans-serif;\r\n    margin: 0px;\r\n    padding: 0px;\r\n}\r\nhtml, body {\r\n    font-family: Verdana,sans-serif;\r\n    font-size: 15px;\r\n    line-height: 1.5;\r\n    margin: 0px;\r\n    padding: 0px;\r\n    height: 100%;\r\n}\r\np {\r\n    text-align: justify;\r\n}", ""]);
 
 // exports
 
